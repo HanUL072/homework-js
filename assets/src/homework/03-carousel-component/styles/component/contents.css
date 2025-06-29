@@ -1,0 +1,88 @@
+.carousel__wrapper {
+  width: 384px;
+  height: 372px;
+  border: 1px solid;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px ;
+  overflow: hidden;
+
+}
+
+.carousel__container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 16px;
+  transition: transform 0.4s ease-in-out;
+
+}
+
+
+.card {
+  position: relative;
+}
+
+.bg-img {
+  width: 160px;
+  height: 1;
+  object-fit: cover;
+  display: block;
+}
+
+.ch-img {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  transition: transform 0.3s ease;
+  pointer-events: none;
+}
+
+.card:hover .ch-img {
+  transform: translate(-50%, -10px); 
+}
+
+
+figcaption {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 160px;
+  
+  .game-title {
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 700;
+  } 
+  .game-des {
+    font-size: 14px;
+  } 
+  .genre {
+    padding-top: 12px;
+    font-size: 14px ;
+    color: #858585;
+  }
+}
+
+.carousel__controls {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  .carousel__button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    border-radius: 50px;
+  }
+
+  .current_page {
+    font-size: 18px;
+  }
+}
