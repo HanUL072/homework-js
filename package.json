@@ -3,6 +3,7 @@
     "start": "live-server . --port=7000 --host=localhost --no-browser"
   },
   "dependencies": {
+    "avif": "^0.5.3",
     "live-server": "^1.2.2"
   }
 }

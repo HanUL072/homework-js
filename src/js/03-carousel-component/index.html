@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3주차 캐러셀 컴포넌트</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    
+    <!-- 탐색 네비 - 추천게임 -->
+    <div class="carousel__nav">
+      <a href="#">
+        <img src="/assets/images/03-week/icons/game-icon.png" alt="게임 목록 이동" />
+        <h2>추천게임</h2>
+        <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.756225 0.751054C1.09794 0.416315 1.65184 0.416315 1.99355 0.751054L7.24365 5.89397C7.58537 6.22871 7.58537 6.77129 7.24365 7.10603L1.99355 12.2489C1.65184 12.5837 1.09794 12.5837 0.756225 12.2489C0.41451 11.9142 0.41451 11.3716 0.756225 11.0369L5.38766 6.5L0.756225 1.96312C0.41451 1.62838 0.41451 1.08579 0.756225 0.751054Z" fill="#858585"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- 콘텐츠 - 카드 -->
+     <div class="carousel__wrapper">
+        <div class="card">
+          <a href="#">
+            <figure>
+              <picture>
+                <source src="/assets/images/03-week/game-background-1-1.avif"/>
+                <img src="/assets/images/03-week/game-background-1-1.png" alt="크로노 오디세이" />
+              </picture>
+              <picture>
+                <source src="/assets/images/03-week/game-character-1-1.avif"/>
+                <img src="/assets/images/03-week/game-character-1-1.png"/>
+              </picture>
+              <figcaption>
+                <strong>크로노 오디세이</strong>
+                <p>멈춰 있던 시간이 흐른다</p>
+                <span>MMORPG</span>
+              </figcaption>  
+            </figure>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <figure>
+              <picture>
+                <source src="/assets/images/03-week/game-background-1-2.avif"/>
+                <img src="/assets/images/03-week/game-background-1-2.png" alt="아키에이지 워" />
+              </picture>
+              <picture>
+                <source src="/assets/images/03-week/game-character-1-2.avif"/>
+                <img src="/assets/images/03-week/game-character-1-2.png"/>
+              </picture>
+              <figcaption>
+                <strong>아키에이지 워</strong>
+                <p>시대의 전설을 향해</p>
+                <span>MMORPG</span>
+              </figcaption>  
+            </figure>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <figure>
+              <picture>
+                <source src="/assets/images/03-week/game-background-2-1.avif"/>
+                <img src="/assets/images/03-week/game-background-2-1.png" alt="패스 오브 엑자일2" />
+              </picture>
+              <picture>
+                <source src="/assets/images/03-week/game-character-2-1.avif"/>
+                <img src="/assets/images/03-week/game-character-2-1.png"/>
+              </picture>
+              <figcaption>
+                <strong>패스 오브 엑자일 2</strong>
+                <p>얼리 액세스 오픈!</p>
+                <span>핵앤슬래시</span>
+              </figcaption>  
+            </figure>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <figure>
+              <picture>
+                <source src="/assets/images/03-week/game-background-2-2.avif"/>
+                <img src="/assets/images/03-week/game-background-2-2.png" alt="오딘 발할라 라이징" />
+              </picture>
+              <picture>
+                <source src="/assets/images/03-week/game-character-2-2.avif"/>
+                <img src="/assets/images/03-week/game-character-2-2.png"/>
+              </picture>
+              <figcaption>
+                <strong>오딘 : 발할라 라이징</strong>
+                <p>신의 영역을 차지하라</p>
+                <span>MMORPG</span>
+              </figcaption>  
+            </figure>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <figure>
+              <picture>
+                <source src="/assets/images/03-week/game-background-3-1.avif"/>
+                <img src="/assets/images/03-week/game-background-3-1.png" alt="롬" />
+              </picture>
+              <picture>
+                <source src="/assets/images/03-week/game-character-3-1.avif"/>
+                <img src="/assets/images/03-week/game-character-3-1.png"/>
+              </picture>
+              <figcaption>
+                <strong>롬: 리멤버 오브 마제스</strong>
+                <p>세계는 하나의 전장이 된다</p>
+                <span>MMORPG</span>
+              </figcaption>  
+            </figure>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#">
+            <figure>
+              <picture>
+                <source src="/assets/images/03-week/game-background-3-2.avif"/>
+                <img src="/assets/images/03-week/game-background-3-2.png" alt="배틀그라운드" />
+              </picture>
+              <picture>
+                <source src="/assets/images/03-week/game-character-3-2.avif"/>
+                <img src="/assets/images/03-week/game-character-3-2.png"/>
+              </picture>
+              <figcaption>
+                <strong>배틀그라운드</strong>
+                <p>최후까지 생존하라!</p>
+                <span>배틀로얄</span>
+              </figcaption>  
+            </figure>
+          </a>
+        </div>
+     </div>
+
+     <!-- 페이지 탐색 버튼  -->
+      <div class="carousel__controls">
+        <button type="button" class="carousel__button carousel__button--prev" aria-label="이전 탐색">
+        <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M8.20703 0.29297C7.81651 -0.0975548 7.18349 -0.0975548 6.79297 0.29297L0.792968 6.29297C0.402444 6.68349 0.402444 7.31651 0.792968 7.70703L6.79297 13.707C7.18349 14.0976 7.81651 14.0976 8.20703 13.707C8.59755 13.3165 8.59755 12.6835 8.20703 12.293L2.91406 7L8.20703 1.70703C8.59755 1.31651 8.59755 0.683494 8.20703 0.29297Z" fill="#474747" />
+        </svg>
+      </button>
+      <span class="current_page"><span>1</span>/3</span>
+      <button type="button" class="carousel__button carousel__button--next" aria-label="다음 탐색">
+        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0.29297 0.29297C0.683494 -0.0975548 1.31651 -0.0975548 1.70703 0.29297L7.70703 6.29297C8.09756 6.68349 8.09756 7.31651 7.70703 7.70703L1.70703 13.707C1.31651 14.0976 0.683494 14.0976 0.29297 13.707C-0.0975548 13.3165 -0.0975548 12.6835 0.29297 12.293L5.58594 7L0.29297 1.70703C-0.0975548 1.31651 -0.0975548 0.683494 0.29297 0.29297Z" fill="#474747" />
+        </svg>
+      </button>
+
+      </div>
+
+    
+    <script src="./js/main.js"></script>
+  </body>
+</html>
