@@ -1,0 +1,19 @@
+.carousel__nav {
+  border: 1px solid;
+  inline-size: 136px;
+  block-size: 36px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
